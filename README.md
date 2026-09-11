@@ -17,14 +17,7 @@ Java와 Spring Boot를 중심으로 서비스 API와 데이터 흐름을 개발�
 ![JPA](https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST%20API-005571?style=flat-square)
 
-**Client**
-
-![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-0D96F6?style=flat-square&logo=swift&logoColor=white)
-![MapKit](https://img.shields.io/badge/MapKit-000000?style=flat-square&logo=apple&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-
-**Data · AI**
+**Vision · AI**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
