@@ -6,14 +6,58 @@
 
 Java와 Spring Boot를 중심으로 API, 데이터 흐름과 운영 구조를 설계하며, **제가 없어도 안정적으로 돌아가는 백엔드**를 만드는 데 성취감을 느낍니다. 문제를 해결하는 데 필요하다면 SwiftUI, React, 컴퓨터 비전처럼 낯선 분야도 직접 다룹니다. 결과만 정리하기보다 판단의 근거, 실패한 조건과 적용 범위를 기록하며 다음 결정을 개선합니다.
 
+[![Email](https://img.shields.io/badge/Email-wnsgk5175497%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:wnsgk5175497@gmail.com)
+
 ## 기술
 
-| 영역 | 기술 | 활용 경험 |
-|---|---|---|
-| **Backend** | Java, Spring Boot, JPA, REST API | 인증·소유권, 외부 API 결합, 캐시 갱신, 비동기 작업과 실패 상태 설계 |
-| **Client** | Swift, SwiftUI, MapKit, React, Vite | 러닝 코스 iOS 앱과 지도 기반 응급실 웹 서비스 구현 |
-| **Data · AI** | Python, OpenCV, YOLO Pose, MediaPipe Pose, DTW, XGBoost | 춤 영상 정렬·피드백과 정면 웹캠 자세 감지 실험 |
-| **Data · Infra** | PostgreSQL, MySQL, AWS EC2, Cloudflare R2 · Tunnel, GitHub Actions | 데이터 저장, 객체 스토리지, 홈서버·클라우드 연결과 배포 자동화 |
+**Backend**
+
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-005571?style=flat-square)
+
+**Client**
+
+![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0D96F6?style=flat-square&logo=swift&logoColor=white)
+![MapKit](https://img.shields.io/badge/MapKit-000000?style=flat-square&logo=apple&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+
+**Data · AI**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![YOLO Pose](https://img.shields.io/badge/YOLO%20Pose-111F68?style=flat-square&logo=ultralytics&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square)
+![DTW](https://img.shields.io/badge/DTW-5B5B5B?style=flat-square)
+![XGBoost](https://img.shields.io/badge/XGBoost-EB5B28?style=flat-square)
+
+**Data · Infra**
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+**Collaboration**
+
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white)
+
+## 경력
+
+### 에픽카 — Backend Developer
+
+`2026.03–현재`
+
+- FastAPI 기반 사내 매출 현황 대시보드를 Spring Boot로 마이그레이션하며 구조 개선, 쿼리 오류 수정과 DB 성능 최적화를 담당했습니다.
+- 쿼리 단위 Repository와 Facade로 Service 의존성을 정리하고, 접근 경로에 따라 Repository를 선택하는 Strategy·Provider 구조를 구현했습니다.
+- 누락 필터와 잘못된 집계 로직을 수정해 과소 집계되던 총매출의 13% 오차를 바로잡았습니다.
+- p6spy와 `EXPLAIN ANALYZE`로 병목을 선별하고 복합 인덱스를 재설계해, 해당 대시보드 측정에서 API 평균 응답시간을 522ms에서 226ms로 줄였습니다.
+- S3 업로드와 Excel 파싱 구조를 검토한 과정은 회사 코드와 데이터를 제외한 [공개 기술 사례](https://github.com/Joooooonha/excel-streaming-parser-study)로 재구성했습니다.
 
 ## 대표 프로젝트
 
@@ -44,15 +88,9 @@ Java와 Spring Boot를 중심으로 API, 데이터 흐름과 운영 구조를 �
 - **데이터 처리**: 오래됐거나 비정상인 병상 수를 `UNKNOWN`으로 처리하고, 외부 API 실패 시 정상 캐시를 유지
 - **확인한 한계**: 정보 접근성을 개선할 수는 있지만 실제 병원 수용을 보장하거나 응급의료 체계의 구조적 문제를 해결할 수는 없음
 
-## 경험과 연구
+## 연구
 
-### [Excel Streaming Parser Study](https://github.com/Joooooonha/excel-streaming-parser-study) — 인턴십 기술 사례
-
-- 제한된 JVM heap에서 가변 크기의 Excel 파일을 처리하기 위한 파싱 구조와 작업 상태, 동시성 제어를 검토했습니다.
-- 합성 `.xlsx`를 사용한 로컬 실험에서 Workbook 전체 로딩 방식은 50,000행을 `-Xmx512m`과 `-Xmx768m`에서 완료하지 못했고, SAX 기반 행·출력 스트리밍 방식은 `-Xmx512m`에서 완료됐습니다.
-- 회사 코드와 고객 데이터를 제외하고 실험 환경, 원시 측정값, 의사결정 과정과 한계를 공개 문서로 재구성했습니다.
-
-### [TurtleHunter](https://github.com/Joooooonha/turtlehunter) — 정면 웹캠 자세 감지 연구
+### [TurtleHunter](https://github.com/Joooooonha/turtlehunter) — 정면 웹캠 자세 감지
 
 `2025.12.30–2026.01.12` · 2인 프로젝트
 
@@ -60,7 +98,19 @@ Java와 Spring Boot를 중심으로 API, 데이터 흐름과 운영 구조를 �
 - MediaPipe Pose 랜드마크·XGBoost 기반 추정 파이프라인과 실시간 상태·알림 로직을 구현했습니다.
 - 단일 환경의 제한된 연속 관측 결과이며, 의료 진단이나 다양한 사용자에 대한 일반화 성능으로 표현하지 않습니다.
 
+## 학력
+
+- **동국대학교 컴퓨터공학전공** · `2021.03–2026.08`
+
+## 수상 · 자격
+
+- **IoT Coss 아이디어톤 우수상** · `2026` — 감귤박 자원 재순환
+- **TOPCIT Lv3** · `2025` — 과학기술정보통신부
+- **교내 아두이노 어드벤처디자인 장려상** · `2023` — 주차장 자동 배정 시스템
+- **동국대학교 학기 우등생** · `2021`, `2023`
+
 ## 활동
 
-- **Apple Developer Academy AI Playground** — 4일간 CBL로 문제를 정의하고 CoCo의 Solution Concept과 프로토타입을 설계했습니다.
-- **대학교 스트릿댄스 동아리 팀장** — 후배들과 공연을 준비하며 발견한 연습 문제에서 ODO를 시작했습니다.
+- **컴퓨터 학술 중앙동아리 CAPS 학술부 팀장** · `2023.09–2025.12` — 스터디 개편과 알고리즘 대회 출제 TF 참여
+- **Apple Developer Academy AI Playground** · `2026.07` — 4일간 CBL로 문제를 정의하고 CoCo의 Solution Concept과 프로토타입 설계
+- **대학교 스트릿댄스 동아리 팀장** — 후배들과 공연을 준비하며 발견한 연습 문제에서 ODO 시작
