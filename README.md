@@ -63,7 +63,7 @@ Java와 Spring Boot를 중심으로 서비스 API와 데이터 흐름을 개발�
 - **핵심 구현**: 구간별 경로 캐시와 부분 실패 복구, 게스트 계정의 소셜 계정 승계, presigned URL 기반 사진 업로드
 - **현재 상태**: MVP 기능 완료, 품질 강화 및 TestFlight 준비
 
-### [ODO — Dance Analyzer](https://github.com/Joooooonha/dance-analyzer-service) — 춤 영상 비교 서비스
+### [ODO — Dance Analyzer](https://github.com/Joooooonha/ODO) — 춤 영상 비교 서비스
 
 `2025.03–현재` · 개인 프로젝트 · [서비스](https://odostudio.site)
 
