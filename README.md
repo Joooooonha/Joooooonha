@@ -42,7 +42,7 @@ Java와 Spring Boot를 중심으로 서비스 API와 데이터 흐름을 개발�
 
 ## 경력
 
-### 에픽카 — Backend Developer
+### 에픽카 — Backend Developer Intern
 
 `2026.03–2026.06`
 
