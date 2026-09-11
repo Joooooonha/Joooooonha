@@ -51,7 +51,7 @@ Java와 Spring Boot를 중심으로 서비스 API와 데이터 흐름을 개발�
 
 ### 에픽카 — Backend Developer
 
-`2026.03–현재`
+`2026.03–2026.06`
 
 - FastAPI 기반 사내 매출 현황 대시보드를 Spring Boot로 마이그레이션하며 구조 개선, 쿼리 오류 수정과 DB 성능 최적화를 담당했습니다.
 - 쿼리 단위 Repository와 Facade로 Service 의존성을 정리하고, 접근 경로에 따라 Repository를 선택하는 Strategy·Provider 구조를 구현했습니다.
