@@ -2,11 +2,11 @@
 
 ### Backend Developer
 
-Java와 Spring Boot를 중심으로 서비스 API와 데이터 흐름을 개발하는 백엔드 개발자 박준하입니다.
+측정으로 문제를 찾습니다. CPU가 남는데도 처리량이 초당 약 2,000건에서 멈춘 원인을 단계별 계측으로 좁혀, 처리 시간의 69~77%가 DB 디스크 동기화 대기임을 분석했습니다.
+원인을 끝까지 확인합니다. 서비스가 완전히 멈춘 결함을 Hibernate 소스와 재현 테스트로 추적해 OSIV의 커넥션 이중 점유가 원인임을 확정한 뒤 개선했습니다.
+대안의 대가를 따져 선택합니다. 처리량을 바로 올릴 수 있던 비동기 커밋은 데이터 유실 위험 때문에 버리고 그룹 커밋을 택해, 안전성을 지키며 처리 한계를 약 1.5배 높였습니다.
 
-사내 대시보드의 Spring 전환과 DB 쿼리 최적화를 담당했습니다. 개인 프로젝트로는 공공데이터 기반 응급실 지도 서비스, 춤 영상 분석 서비스와 러닝 코스 iOS 앱을 개발했습니다. API와 DB를 중심에 두고 운영 제약, 데이터 신뢰성과 실패 조건을 코드와 문서로 확인합니다.
-
-[![Email](https://img.shields.io/badge/Email-wnsgk5175497%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:wnsgk5175497@gmail.com)
+[![Email](https://img.shields.io/badge/Email-wnsgk517%40naver.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:wnsgk517@naver.com)
 
 ## 기술
 
