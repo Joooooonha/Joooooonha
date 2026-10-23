@@ -54,15 +54,6 @@
 
 ## 대표 프로젝트
 
-### [CoCo](https://github.com/Joooooonha/CoCo) — 러닝 코스 선택 iOS 앱
-
-`2026.07–현재` · Apple Developer Academy AI Playground 4일 팀 활동 이후 개인 개발
-
-- **해결하고자 한 문제**: 낯선 러닝 코스를 선택할 때 글 후기만으로는 실제 경로와 경관·주의·편의 정보를 판단하기 어려운 문제
-- **참여 범위**: CBL 질문·인터뷰를 통한 문제 정의에 참여하고, 교육 이후 SwiftUI·MapKit 앱과 Spring Boot 서버, 배포 환경을 개인 개발
-- **핵심 구현**: 구간별 경로 캐시와 부분 실패 복구, 게스트 계정의 소셜 계정 승계, presigned URL 기반 사진 업로드
-- **현재 상태**: MVP 기능 완료, 품질 강화 및 TestFlight 준비
-
 ### [ODO — Dance Analyzer](https://github.com/Joooooonha/ODO) — 춤 영상 비교 서비스
 
 `2025.03–현재` · 개인 프로젝트 · [서비스](https://odostudio.site)
@@ -71,6 +62,15 @@
 - **참여 범위**: 포즈 분석 엔진 설계·검증, Spring Boot·React 웹 서비스 구현과 배포
 - **핵심 구현**: 포즈에서 관절 각도를 추출하고 DTW로 서로 다른 시작 시점과 속도를 정렬해 구간별 피드백으로 변환
 - **확인한 범위**: 기본기 동작에서 가능성을 확인했으며, 관절 겹침과 2D 영상의 모호성은 현재 분석의 한계로 유지
+
+### [CoCo](https://github.com/Joooooonha/CoCo) — 러닝 코스 선택 iOS 앱
+
+`2026.07–현재` · Apple Developer Academy AI Playground 4일 팀 활동 이후 개인 개발
+
+- **해결하고자 한 문제**: 낯선 러닝 코스를 선택할 때 글 후기만으로는 실제 경로와 경관·주의·편의 정보를 판단하기 어려운 문제
+- **참여 범위**: CBL 질문·인터뷰를 통한 문제 정의에 참여하고, 교육 이후 SwiftUI·MapKit 앱과 Spring Boot 서버, 배포 환경을 개인 개발
+- **핵심 구현**: 구간별 경로 캐시와 부분 실패 복구, 게스트 계정의 소셜 계정 승계, presigned URL 기반 사진 업로드
+- **현재 상태**: MVP 기능 완료, 품질 강화 및 TestFlight 준비
 
 ### [FindEr](https://github.com/Joooooonha/FindEr) — 주변 응급실 정보 탐색 서비스
 
@@ -104,7 +104,7 @@
 
 ## 교육 · 활동
 
-- **Apple Developer Academy AI Playground** · `2026.07` — 4일간 CBL로 문제를 정의하고 CoCo의 Solution Concept과 프로토타입 설계
+- **Apple Developer Academy AI Playground** · `2026.07` — CBL을 기반 IOS 러닝 앱 프로토타입 설계 및 구현
 - **새싹(SeSAC) 자바 백엔드 과정 수료** · `2025.09–2026.03`
 - **컴퓨터 학술 중앙동아리 CAPS 학술부 팀장** · `2023.09–2025.12` — 스터디 개편과 알고리즘 대회 출제 TF 참여
 - **동국대학교 스트릿댄스 동아리 ODC 브레이킹 팀장** · `2024.11–2025.11` — 공연 준비 및 댄스 분석 서비스 ODO 개발
